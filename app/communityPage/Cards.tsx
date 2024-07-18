@@ -125,7 +125,7 @@ const Cards = ({ searchTerm }: { searchTerm: string }) => {
                         {isHovered ? card.communityName : truncateTitle(card.communityName)}
                       </p>
     
-                      <p className="text-[14px] sm:text-[16px] leading-[20px] sm:leading-[25px] bg-[#A2FF9324] bg-opacity-[14%] rounded-[10px] mt-1  text-center w-fit roboto-mono">{card.communityType}</p>
+                      <p className="text-[14px] sm:text-[16px] leading-[20px] sm:leading-[25px] bg-[#A2FF9324] bg-opacity-[14%] rounded-[10px] mt-1 px-2 py-1 text-center w-fit roboto-mono">{card.communityType}</p>
                       {card.communityLocation &&(
                       <div className="flex items-center  mt-2">
                            <img src="/images/location-pin.png" alt="" className='w-5' />
