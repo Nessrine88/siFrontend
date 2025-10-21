@@ -59,14 +59,14 @@ export default function Banner({ hero }: any) {
           initial={{ opacity: 0.7, x: 500 }}
           animate={controls}
         >
-          ACCESSIBLE
+          ACCESSIBLE  WEB3 ERA
         </motion.h2>
         <motion.p
           className="md:pt-6 text-white text-sm md:text-xl font-mono max-w-xs max-sm:mt-4  "
           initial={{ opacity: 0.7, x: 500 }}
           animate={controls}
         >
-          WEB3 ERA
+         Driving collaboration, Accessibility & Growth of the New Economy
         </motion.p>
         <motion.div
           initial={{ opacity: 0, y: 100 }}
