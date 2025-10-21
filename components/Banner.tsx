@@ -52,21 +52,21 @@ export default function Banner({ hero }: any) {
           initial={{ opacity: 0.7, x: 500 }}
           animate={controls}
         >
-          {hero?.headingOne}
+          ENTERING AN 
         </motion.h1>
         <motion.h2
           className="text-primary uppercase text-2xl md:text-6xl max-w-[200px] sm:max-w-xs font-[1000]"
           initial={{ opacity: 0.7, x: 500 }}
           animate={controls}
         >
-          {hero?.headingTwo}
+          ACCESSIBLE
         </motion.h2>
         <motion.p
           className="md:pt-6 text-white text-sm md:text-xl font-mono max-w-xs max-sm:mt-4  "
           initial={{ opacity: 0.7, x: 500 }}
           animate={controls}
         >
-          {hero?.subHeader}
+          WEB3 ERA
         </motion.p>
         <motion.div
           initial={{ opacity: 0, y: 100 }}

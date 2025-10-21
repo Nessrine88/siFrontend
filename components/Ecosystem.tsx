@@ -39,7 +39,7 @@ export default function Ecosystem({ ecosystemSpotlight }: any) {
 
   const getVisibleItems = () => {
     const startIndex = currentIndex * itemsPerPage;
-    return ecosystemSpotlight.spotlightList.slice(
+    return ecosystemSpotlight?.spotlightList?.slice(
       startIndex,
       startIndex + itemsPerPage
     );
@@ -130,7 +130,7 @@ export default function Ecosystem({ ecosystemSpotlight }: any) {
               transition={{ duration: 0.5 }}
               className="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-10"
             >
-              {getVisibleItems().map((item: any, key: number) => (
+              {getVisibleItems()?.map((item: any, key: number) => (
                 <motion.div
                   key={key}
                   className="border-2 px-2 sm:px-3 rounded-lg flex items-center sm:justify-center flex-col text-center py-6"
