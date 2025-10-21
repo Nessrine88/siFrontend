@@ -178,7 +178,7 @@ const CardPopup: React.FC<CardPopupProps> = ({ show, handleClose }) => {
       };
 
       const data = {
-        _type: 'cards',
+        _type: 'card',
         ...formData,
         published: false 
       };
@@ -186,7 +186,7 @@ const CardPopup: React.FC<CardPopupProps> = ({ show, handleClose }) => {
       console.log('Submitting data to Sanity:', data);
 
       const response = await axios.post(
-        'https://h4ttr3aq.api.sanity.io/v2021-06-07/data/mutate/production',
+        'https://i82dugak.api.sanity.io/v2021-06-07/data/mutate/production',
         { mutations: [{ create: data }] },
         config
       );
