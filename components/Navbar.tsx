@@ -119,10 +119,10 @@ const Navbar = ({ utils }: any) => {
         </div>
 
         {/* Logo */}
-        <div className="hidden lg:flex items-center justify-center">
+        <div className="hidden lg:flex items-center justify-center text-primary uppercase text-lg md:text-2xl max-w-[200px] sm:max-w-xs font-[1000]">
           <Link href={getHref("/")}>
            
-           
+           SI&HER
           </Link>
         </div>
 
