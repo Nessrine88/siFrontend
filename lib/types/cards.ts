@@ -4,7 +4,7 @@ import { Card } from './interfaces';
 
 export async function getCards(): Promise<Card[]> {
   const query = groq`
-    *[_type == "cards"] {
+    *[_type == "card"] {
       _id,
       communityLogo {
         asset->{url, metadata {dimensions}}

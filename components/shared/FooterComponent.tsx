@@ -11,14 +11,14 @@ export default function FooterComponent({ footer }: any) {
         <div className="py-5 flex flex-col md:flex-row items-center gap-5 justify-between">
           <Link href="/" className="text-white text-5xl font-bold uppercase">
             <img
-              src={urlFor(footer?.logo?.asset).url()}
+              src="#"
               alt={footer?.logo?.alt}
               className="w-24 h-12 "
             />
           </Link>
 
           <div className="flex items-center gap-6 shrink-0">
-            <a href={footer.other} target="_blank">
+            <a href={footer?.other} target="_blank">
               <Image
                 src={"/icons/ha.svg"}
                 alt="icon"
@@ -27,7 +27,7 @@ export default function FooterComponent({ footer }: any) {
                 className="w-7 h-7"
               />
             </a>
-            <a href={footer.twitter} target="_blank">
+            <a href={footer?.twitter} target="_blank">
               <Image
                 src={"/icons/x.svg"}
                 alt="icon"
@@ -36,7 +36,7 @@ export default function FooterComponent({ footer }: any) {
                 className="w-7 h-7"
               />
             </a>
-            <a href={footer.linkedIn} target="_blank">
+            <a href={footer?.linkedIn} target="_blank">
               <Image
                 src={"/icons/linkedIn.svg"}
                 alt="icon"

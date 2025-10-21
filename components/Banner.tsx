@@ -80,8 +80,8 @@ export default function Banner({ hero }: any) {
           }}
           className="mt-8 md:mt-10 xl:mt-[80px] flex items-center justify-center w-full md:w-fit"
         >
-          <a href={hero.cta.link.external} target="_blank" className="w-full">
-            <ButtonCTA variant="outline">{hero?.cta?.text}</ButtonCTA>
+          <a href="/communityPage" target="_blank" className="w-full">
+            <ButtonCTA variant="outline">Communities</ButtonCTA>
           </a>
         </motion.div>
       </div>
